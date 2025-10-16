@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+  color: #333;
+  display: flex;
+  justify-content: center;
+}
+
+header {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+#site-logo {
+  height: 80px;
+}
+
+.login-box {
+  width: 100%;
+  max-width: 580px;        /* longer form */
+  margin: 100px 0;
+  padding: 40px 20px;
+}
+
+.login-box h1 {
+  margin: 0 0 50px;
+  text-align: left;
+}
+
+.login-box h1 span {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: normal;
+  color: #6a0dad;
+}
+
+.login-box h1 strong {
+  display: block;
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: #6a0dad;
+  margin-top: 5px;
+}
+
+/* Input fields */
+.login-box form input {
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 30px;
+  border: 1px solid #bbb;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  box-sizing: border-box;
+  background-color: #fff;
+  text-align: left;
+  background-repeat: no-repeat;
+  background-position: 10px center;   /* default position */
+  background-size: 20px 20px;         /* default size */
+  padding-left: 40px;                  /* space for icon */
+}
+
+/* Email icon */
+.login-box input[name="email"] {
+  background-image: url('../images/email-icon.png');
+}
+
+/* Password icon */
+.login-box input[name="password"] {
+  background-image: url('../images/password-icon.png');
+}
+
+.login-box form input:focus {
+  outline: none;
+  border-color: #6a0dad;
+}
+
+.login-box form button {
+  width: 100%;
+  padding: 20px;
+  background: #ff6600;
+  border: none;
+  border-radius: 30px;     /* curved button */
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.login-box form button:hover {
+  background: #e65c00;
+}
